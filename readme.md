@@ -5,11 +5,13 @@ Data is obtained from Kicker. The website was crawled and the obtained html file
 The 3 Point rule was starting in season 1995/96, before that winning yielded 2 points (0 to loser), after that 3 points (0 to loser). A draw is always 1 point each.
 
 The summary is in the following format:
-     SeasonFrom , SeasonTo ,Matchday, Day, Date, Time, Home, Guest, Score90, Score45, Score90Home, Score90Guest, Score45Home, Score45Guest, PointsHome, PointsGuest          
-     1963  ,  1964  ,  1  ,  Saturday  ,  1963-08-24  ,  17:00  ,  TSV 1860  ,  Braunschweig  ,  1:1 , 1:0  , 1 , 1  ,  1 , 0  , 1 , 1
-     1963  ,  1964  ,  1  ,  Saturday  ,  1963-08-24  ,  17:00  ,  Münster  ,  HSV  ,  1:1 , 0:0  , 1 , 1  ,  0 , 0  , 1 , 1
-     1963  ,  1964  ,  1  ,  Saturday  ,  1963-08-24  ,  17:00  ,  Saarbrücken  ,  Köln  ,  0:2 , 0:2  , 0 , 2  ,  0 , 2  , 0 , 2
-     1963  ,  1964  ,  1  ,  Saturday  ,  1963-08-24  ,  17:00  ,  Karlsruhe  ,  Meidericher SV  ,  1:4 , 0:3  , 1 , 4  ,  0 , 3  , 0 , 2
+
+     SeasonFrom | SeasonTo |Matchday| Day| Date| Time| Home| Guest| Score90| Score45| Score90Home| Score90Guest| Score45Home| Score45Guest| PointsHome| PointsGuest 
+     ------------| ------------ |------------| ------------| ------------| ------------| ------------| ------------| ------------| ------------| ------------| ------------| ------------| ------------| ------------| ------------ 
+     1963  |  1964  |  1  |  Saturday  |  1963-08-24  |  17:00  |  TSV 1860  |  Braunschweig  |  1:1 | 1:0  | 1 | 1  |  1 | 0  | 1 | 1
+     1963  |  1964  |  1  |  Saturday  |  1963-08-24  |  17:00  |  Münster  |  HSV  |  1:1 | 0:0  | 1 | 1  |  0 | 0  | 1 | 1
+     1963  |  1964  |  1  |  Saturday  |  1963-08-24  |  17:00  |  Saarbrücken  |  Köln  |  0:2 | 0:2  | 0 | 2  |  0 | 2  | 0 | 2
+     1963  |  1964  |  1  |  Saturday  |  1963-08-24  |  17:00  |  Karlsruhe  |  Meidericher SV  |  1:4 | 0:3  | 1 | 4  |  0 | 3  | 0 | 2
 
 
 Remark: 
