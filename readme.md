@@ -1,3 +1,9 @@
+Edit:
+	The most comprehensive data is stored inside resultsExtended.csv
+
+
+
+
 History of every Bundesliga game ever played
 
 Data is obtained from Kicker. The website was crawled and the obtained html files have been filtered to reduce everything to a single csv file.
