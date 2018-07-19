@@ -15,13 +15,18 @@ The summary is in the following format:
 
 
 Remark: 
-	For these four games we inserted the half time score as 0:0 since this information was missing.
+For these four games we inserted the half time score as 0:0 since this information was missing.
+	
 	1970  ,  1971  ,  27  ,  Saturday  ,  1971-04-03  ,  15:30  ,  Gladbach  ,  Bremen
+	
 	1976  ,  1977  ,  15  ,  Saturday  ,  1976-11-27  ,  15:30  ,  K'lautern  ,  Düsseldorf 
+	
 	1992  ,  1993  ,  32  ,  Saturday  ,  1993-05-22  ,  15:30  ,  Uerdingen  ,  Frankfurt  
+	
 	1994  ,  1995  ,  26  ,  Saturday  ,  1995-04-15  ,  15:30  ,  Frankfurt  ,  Bayern  
 
-	For this game there is no final score as it was terminated early due to rain.
+For this game there is no final score as it was terminated early due to rain.
+
 	2007  ,  2008  ,  28  ,  Friday  ,  2008-04-11  ,  20:30  ,  Nürnberg  ,  Wolfsburg 
 
 Finally, we manually removed the entry corresponding to the following game that was terminated and then repeated on another day( see: http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/1963-64/14/0/spieltag.html)
