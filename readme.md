@@ -25,11 +25,9 @@ For these four games we inserted the half time score as 0:0 since this informati
 	
 	1994  ,  1995  ,  26  ,  Saturday  ,  1995-04-15  ,  15:30  ,  Frankfurt  ,  Bayern  
 
-For this game there is no final score as it was terminated early due to rain.
 
-	2007  ,  2008  ,  28  ,  Friday  ,  2008-04-11  ,  20:30  ,  Nürnberg  ,  Wolfsburg 
 
-Finally, we manually removed the entry corresponding to the following game that was terminated and then repeated on another day( see: http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/1963-64/14/0/spieltag.html)
+Finally, we manually removed the entries corresponding to two following games that were terminated and then repeated on another day( see: http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/1963-64/14/0/spieltag.html and http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2007-08/28/0/spieltag.html)
 
 Procedure to get the data:
 
