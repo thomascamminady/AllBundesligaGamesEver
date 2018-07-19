@@ -27,9 +27,9 @@ def main():
             nextyearflag = False
             for line in lines:        
                 if timeflag:
-                    date = find_between(line,"<td>","&")
-                    time = find_between(line,";","<")
-                    lastdate = date;
+                    date = find_between(line,"<td>","&") # find date of game
+                    time = find_between(line,";","<")    # find time of game
+                    lastdate = date;    # save this 
                     lasttime = time;
                     timeflag = False
                 if "class=\"first\">" in line:
@@ -37,7 +37,7 @@ def main():
                         day = find_between(line,"rst\">","<")
                         lastday = day;
                         timeflag = True
-                home = find_between(line,"ovVrn ovVrnRight\">", "</a>");
+                home = find_between(line,"ovVrn ovVrnRight\">", "</a>"); # home team name
                 if len(home)>0:
                     x = lastspieltag.split(".")
                     x = x[0]
@@ -116,7 +116,7 @@ def main():
                     score = string.replace(score,'&nbsp;(',' , ')
                     score = string.replace(score,')', ' ')
                     tmp = string.split(score,',')
-                    if len(tmp)==1:
+                    if len(tmp)==1: # if half time score is missing add it as 0:0
                         score += ", 0:0"
                     print(score),
                     print(','),
@@ -139,7 +139,7 @@ def main():
                         print(0)
                     elif len(x[0])>0:
                         if int(x[0])>int(x[1]):
-                            if season+63<95:
+                            if season+63<95: # the 3 point rule came into place in 1995, before that a win was 2 points
                                 print(2),
                             else:
                                 print(3),
