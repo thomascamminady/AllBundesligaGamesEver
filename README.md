@@ -37,7 +37,7 @@ The `Time` field is empty but kept for compatibility with the legacy code.
 
 
 ## Issues
-Two games are listed as 'aborted'. They do have a final score, but no half time score is listed and the games are repeated. I did keep the entries but filled the half time score wit `pd.NA`. The two games can be found [here](https://www.kicker.de/bundesliga/spieltag/2007-08/28/0) and [here](https://www.kicker.de/bundesliga/spieltag/1963-64/14/0) (look for the 'abgr.' (aborted) label). For them, the `Aborted` key is `True`. Additionally, one game was annulated, see [here](https://www.kicker.de/2-bundesliga/spieltag/2003-04/13/0) and the `Annulled` key is set to `True`.
+Two games are listed as *aborted*. They do have a final score, but no half time score is listed and the games are repeated. I did keep the entries but filled the half time score wit `pd.NA`. The two games can be found [here](https://www.kicker.de/bundesliga/spieltag/2007-08/28/0) and [here](https://www.kicker.de/bundesliga/spieltag/1963-64/14/0) (look for the 'abgr.' (aborted) label). For them, the `Aborted` key is `True`. Additionally, one game was annulated, see [here](https://www.kicker.de/2-bundesliga/spieltag/2003-04/13/0) and the `Annulled` key is set to `True`.
 
 Additionally, no half time score was found for these matches (this table is copied verbatim from the legacy code):
 ```
