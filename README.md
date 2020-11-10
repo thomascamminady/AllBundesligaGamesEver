@@ -27,7 +27,7 @@ Data is stored in a simple, readable CSV file. For every match, we store the fol
  'Score45Guest',
  'PointsHome',
  'PointsGuest',
- 'League'
+ 'League',
 ]
 ```
 
