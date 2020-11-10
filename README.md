@@ -12,25 +12,25 @@ Data is stored in a simple, readable CSV file. For every match, we store the fol
 
 ```python
 [
- 'SeasonFrom',
- 'SeasonTo',
- 'Matchday',
- 'Day',
- 'Date',
- 'Time',
- 'Home',
- 'Guest',
- 'Score90',
- 'Score45',
- 'Score90Home',
- 'Score90Guest',
- 'Score45Home',
- 'Score45Guest',
- 'PointsHome',
- 'PointsGuest',
- 'Aborted',
- 'Annulled',
- 'League',
+ 'SeasonFrom',       # The year the season started
+ 'SeasonTo',         # The year the season ended
+ 'Matchday',         # The matchday on which the match took place 
+ 'Day',              # Friday, Saturday, ...
+ 'Date',             # Calendar date
+ 'Time',             # This is always pd.NA
+ 'Home',             # Name of the team playing at home
+ 'Guest',            # Name of the guest team
+ 'Score90',          # Result as string after the game is over, i.e., "1:2"
+ 'Score45',          # Half time result
+ 'Score90Home',      # Goals shot of the home team when the game is over
+ 'Score90Guest',     # Goals shot of the guest team when the game is over
+ 'Score45Home',      # Goals shot of the home team at half time
+ 'Score45Guest',     # Goals shot of the guest team at half time
+ 'PointsHome',       # Points for the match. Draw gives 1 each, win gives 3 (before 1995 only 2), loss 0
+ 'PointsGuest',      # Points for the guest team
+ 'Aborted',          # Whether or not the game has been aborted
+ 'Annulled',         # Whether or not the game has been annulled
+ 'League',           # 1. Bundesliga or 2. Bundesliga
 ]
 ```
 
