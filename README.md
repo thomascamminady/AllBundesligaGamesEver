@@ -2,7 +2,9 @@
 
 This repository contains (i) a file with all Bundesliga (First and Second) games ever played and (ii) a script to reproduce the data.
 
-Additionally, there is legacy code that was initially used for a prior version. That legacy code did not gather data for the Second Bundesliga. However, when the data was initially scraped with that code, it was able to scrape the time of matches as well. This is no longer possible with the current version. (Sidenote: I don't think the problem is the code, but rather changes in the website from which the data is scraped.) As an overview, here is a heatmap of match results of all 1. Bundesliga games ever played.
+Additionally, there is legacy code that was initially used for a prior version. That legacy code did not gather data for the Second Bundesliga. However, when the data was initially scraped with that code, it was able to scrape the time of matches as well. This is no longer possible with the current version. (Sidenote: I don't think the problem is the code, but rather changes in the website from which the data is scraped.) 
+The data is scraped from the [Kicker](https://www.kicker.de/) website.
+As an overview, here is a heatmap of match results of all 1. Bundesliga games ever played.
 
 ![SummaryOfGoals](ScoreboardPercentage.png)
 
@@ -50,4 +52,4 @@ Additionally, no half time score was found for these matches (this table is copi
 
 The number of games between this version and the legacy code does not match exactly, the legacy code has fewer games. At a first glance, it seems like the old code had problems identifying [delayed games](https://www.kicker.de/bundesliga/spieltag/1963-64/25), whereas the new code handles this. I am not entirely sure if this is the reason for the difference and whether it is handled correctly now, but it seems as if the new code does a better job here. 
 
-Lastly, the code is insanely slow and scraping takes forever (about an hour). 
+Lastly, the code is insanely slow and scraping takes forever (about two hours). 
