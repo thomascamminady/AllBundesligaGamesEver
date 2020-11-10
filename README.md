@@ -2,7 +2,9 @@
 
 This repository contains (i) a file with all Bundesliga (First and Second) games ever played and (ii) a script to reproduce the data.
 
-Additionally, there is legacy code that was initially used for a prior version. That legacy code did not gather data for the Second Bundesliga. However, when the data was initially scraped with that code, it was able to scrape the time of matches as well. This is no longer possible with the current version. (Sidenote: I don't think the problem is the code, but rather changes in the website from which the data is scraped.) As an overview, here is a heatmap of match results of all 1. Bundesliga games ever played.
+Additionally, there is legacy code that was initially used for a prior version. That legacy code did not gather data for the Second Bundesliga. However, when the data was initially scraped with that code, it was able to scrape the time of matches as well. This is no longer possible with the current version. (Sidenote: I don't think the problem is the code, but rather changes in the website from which the data is scraped.) 
+The data is scraped from the [Kicker](https://www.kicker.de/) website.
+As an overview, here is a heatmap of match results of all 1. Bundesliga games ever played.
 
 ![SummaryOfGoals](ScoreboardPercentage.png)
 
