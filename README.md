@@ -47,4 +47,6 @@ Additionally, no half time score was found for these matches (this table is copi
 1994  ,  1995  ,  26  ,  Saturday  ,  1995-04-15  ,  15:30  ,  Frankfurt  ,  Bayern  
 ```
 
+The number of games between this version and the legacy code does not match exactly, the legacy code has fewer games. At a first glance, it seems like the old code had problems identifying [delayed games](https://www.kicker.de/bundesliga/spieltag/1963-64/25), whereas the new code handles this. I am not entirely sure if this is the reason for the difference and whether it is handled correctly now, but it seems as if the new code does a better job here. 
+
 Lastly, the code is insanely slow and scraping takes forever (about an hour). 
