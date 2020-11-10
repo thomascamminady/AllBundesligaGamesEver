@@ -9,7 +9,7 @@ Additionally, there is legacy code that was initially used for a prior version. 
 
 Data is stored in a simple, readable CSV file. For every match, we store the following keys:
 
-	```
+```
 ['SeasonFrom',
  'SeasonTo',
  'Matchday',
