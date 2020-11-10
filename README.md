@@ -2,7 +2,7 @@
 
 This repository contains (i) a file with all Bundesliga (First and Second) games ever played and (ii) a script to reproduce the data.
 
-Additionally, there is legacy code that was initially used for a prior version. That legacy code did not gather data for the Second Bundesliga. However, when the data was initially scraped with that code, it was able to scrape the time of matches as well. This is no longer possible with the current version. (Sidenote: I think that the problem is not the code, but changes in the website from which the data is scraped.)
+Additionally, there is legacy code that was initially used for a prior version. That legacy code did not gather data for the Second Bundesliga. However, when the data was initially scraped with that code, it was able to scrape the time of matches as well. This is no longer possible with the current version. (Sidenote: I don't think the problem is the code, but rather changes in the website from which the data is scraped.)
 
 
 ## Format
@@ -10,7 +10,8 @@ Additionally, there is legacy code that was initially used for a prior version. 
 Data is stored in a simple, readable CSV file. For every match, we store the following keys:
 
 ```
-['SeasonFrom',
+[
+ 'SeasonFrom',
  'SeasonTo',
  'Matchday',
  'Day',
@@ -38,10 +39,10 @@ Two games are listed as 'aborted'. They do have a final score, but no half time 
 
 Additionally, no half time score was found for these matches (this table is copied verbatim from the legacy code):
 ```
-1970  ,  1971  ,  27  ,  Saturday  ,  1971-04-03  ,  15:30  ,  Gladbach  ,  Bremen
+1970  ,  1971  ,  27  ,  Saturday  ,  1971-04-03  ,  15:30  ,  Gladbach   ,  Bremen
 1976  ,  1977  ,  15  ,  Saturday  ,  1976-11-27  ,  15:30  ,  K'lautern  ,  Düsseldorf 
 1992  ,  1993  ,  32  ,  Saturday  ,  1993-05-22  ,  15:30  ,  Uerdingen  ,  Frankfurt  
 1994  ,  1995  ,  26  ,  Saturday  ,  1995-04-15  ,  15:30  ,  Frankfurt  ,  Bayern  
 ```
 
-Lastly, the code is insanely slow and scraping takes forever (about half an hour). 
+Lastly, the code is insanely slow and scraping takes forever (about an hour). 
